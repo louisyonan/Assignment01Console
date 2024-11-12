@@ -7,5 +7,10 @@ public class App {
             System.out.println("Please input a number");
             return;
         }
+    
+
+
+        Scanner scanner = new Scanner(System.in);
+
     }
 }
