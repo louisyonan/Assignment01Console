@@ -22,7 +22,7 @@ public class App {
         System.out.print("What is your favorite football team?: ");
         String userInput = scanner.nextLine();
 
-        String phrase = "You like" + userInput + "!!";
+        String phrase = "You like " + userInput + "!!";
 
         for (int i = 0; i < repeatCount; i++) {
             System.out.println(phrase);
