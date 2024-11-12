@@ -18,18 +18,20 @@ public class App {
     
 
 
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
         System.out.print("What is your favorite football team?: ");
         String userInput = scanner.nextLine();
 
         String phrase = "You like" + userInput + "!!";
 
-        for (int i = 0; repeatCount; i++;) {
+        for (int i = 0; i < repeatCount; i++) {
             System.out.println(phrase);
         }
 
         
         System.out.println("Thats a wonderful team");
+
+    }
 
     }
 }
